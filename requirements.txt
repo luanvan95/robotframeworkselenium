@@ -1,0 +1,6 @@
+urllib3==1.26.20
+selenium==4.3.0
+robotframework==7.1.0
+robotframework-seleniumlibrary==6.6.1
+PyYAML==6.0.2
+webdriver-manager==4.0.2
