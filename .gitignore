@@ -1,5 +1,6 @@
 **/.DS_Store
 **/.pyc
+**/results/
 **/browser/
 **/__pycache__/
 **/.vscode
@@ -10,6 +11,7 @@ playwright-log.txt
 log.html
 report.html
 output.xml
+env_*.yaml
 **/interactive_console_output.xml
 venv
-**/browser/
+**/appium.log
