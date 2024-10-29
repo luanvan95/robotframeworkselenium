@@ -1,11 +1,12 @@
 *** Variables ***
-${BROWSER}              Chrome
-${HEADLESS}             False
+${CHROME_BROWSER}              chrome
+${CHROME_BROWSER_HEADLESS}     headlesschrome
+${FIREFOX_BROWSER}             firefox
+${FIREFOX_BROWSER_HEADLESS}    headlessfirefox
 
 *** Settings ***
 Library                 OperatingSystem
 Library                 SeleniumLibrary
-Library                 chromedriver.py
 Variables               ../env.yaml
 
 *** Keywords ***
@@ -15,9 +16,9 @@ Log And Capture Error
 
 Open New Browser
     [Arguments]          ${url}
-    ${chromeDriver}=     chromedriver.Get Chromedriver
-    Create Webdriver     ${Browser}    executable_path=${chromeDriver}
-    Go To                ${Url}
+    [Documentation]      Open Browser using Selenium Library Driver
+    ...                  Change with any Browser type you want to use
+    Open Browser         ${Url}    ${CHROME_BROWSER}
 
 Open SauceDemo
     Delete Old Files
