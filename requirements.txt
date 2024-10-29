@@ -3,4 +3,3 @@ selenium==4.16.0
 robotframework==7.1.0
 robotframework-seleniumlibrary==6.6.1
 PyYAML==6.0.2
-webdriver-manager==4.0.2
