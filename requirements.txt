@@ -1,5 +1,5 @@
 urllib3==1.26.20
-selenium==4.11.2
+selenium==4.16.0
 robotframework==7.1.0
 robotframework-seleniumlibrary==6.6.1
 PyYAML==6.0.2
