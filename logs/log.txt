@@ -1,1 +1,1 @@
-This is only placeholder for los file.
+This is only placeholder for log file.
