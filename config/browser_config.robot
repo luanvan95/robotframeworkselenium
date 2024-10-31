@@ -18,7 +18,7 @@ Open New Browser
     [Arguments]          ${url}
     [Documentation]      Open Browser using Selenium Library Driver
     ...                  Change with any Browser type you want to use
-    Open Browser         ${Url}    ${CHROME_BROWSER}
+    Open Browser         ${Url}    ${CHROME_BROWSER}    options=add_experimental_option("excludeSwitches", ["enable-logging"])
 
 Open SauceDemo
     Delete Old Files
