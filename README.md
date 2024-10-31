@@ -10,7 +10,7 @@ This is a simple sample for Test Automation using Robot Framework with Selenium 
 3. Make sure 'pip' also installed together with python. If it is not automatically installed, refer to [Python Crash Course](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html).
 4. Update python to your PATH file. Refer [here](https://realpython.com/add-python-to-path/), this website covered configuration for Windows, Linux, and MacOS. Or, if you prefer using python version management tools, refer to [this article](https://medium.com/@zorozeri/how-to-install-pyenv-and-manage-pythonversion-on-your-local-machine-241b119b7ae9) for using [pyenv](https://github.com/pyenv/pyenv).
 5. Install [NodeJS](https://nodejs.org/en/download/prebuilt-installer), this is necessary because NodeJS is needed by [Browser Library](https://docs.robotframework.org/docs/different_libraries/browser). 
-7. Download and open this code repository on your local Code Editor and run these 2 commands :
+7. Download and open this code repository on your local Code Editor and run this command :
    ```
    pip install -r requirements.txt
    ```
