@@ -52,11 +52,15 @@ This is a simple sample for Test Automation using [Robot Framework](https://robo
 
 ## Short Repository Explanation
 
-This sample Test Automation consists of 3 main folders : 
+This sample Test Automation consists of 4 main folders : 
 
 * config
    ```
    Contains basic configuration of Variables, Settings, and Keyword wich will be used globally on this whole project
+   ```
+* log
+   ```
+   This folder will be filled with screenshot and logs from test execution, with one initial .txt file as placeholder only
    ```
 * resources
    ```
@@ -70,7 +74,7 @@ This sample Test Automation consists of 3 main folders :
    Contains test cases
    ```
 
-Apart from these 3 folders, this sample also using `env.yaml` file which can be used to store configuration-specific data. On this sample, URL for test is stored there :
+Apart from these 4 folders, this sample also using `env.yaml` file which can be used to store configuration-specific data. On this sample, URL for test is stored there :
    ```
    SauceDemo_URL: https://www.saucedemo.com/
    ```
