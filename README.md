@@ -24,7 +24,7 @@ This is a simple sample for Test Automation using [Robot Framework](https://robo
 
 * Run specific test : 
    ```
-   robot tests/{test file name using extention ".robot"}
+   robot tests/{test file name using extension ".robot"}
 
    sample :
    robot tests/001.robot
