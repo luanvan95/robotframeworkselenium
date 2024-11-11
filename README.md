@@ -78,3 +78,8 @@ Apart from these 4 folders, this sample also using `env.yaml` file which can be 
    ```
    SauceDemo_URL: https://www.saucedemo.com/
    ```
+
+## Selenium Library Keywords Documentation
+
+https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+
