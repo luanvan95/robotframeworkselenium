@@ -18,7 +18,8 @@ Open New Browser
     [Arguments]          ${url}
     [Documentation]      Open Browser using Selenium Library Driver
     ...                  Change with any Browser type you want to use
-    Open Browser         ${Url}    ${CHROME_BROWSER}    options=add_experimental_option("excludeSwitches", ["enable-logging"])
+    Open Browser         ${Url}    ${CHROME_BROWSER_HEADLESS}    options=add_experimental_option("excludeSwitches", ["enable-logging"]);add_argument("--headless");add_argument("--disable-gpu");add_argument("--no-sandbox");add_argument("--disable-dev-shm-usage")
+
 
 Open SauceDemo
     Delete Old Files
